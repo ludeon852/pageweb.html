@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es-col">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salud</title>
+    <style>
+  .container{
+        display:flex;
+        flex-wrap: wrap;         /* permite ajustar la tabla segun el tipo y tamaño de la pagina */
+
+    }
+    .container> div {
+        background-color: springgreen;
+        font-size:20px;
+        margin:20px;                        /*espacio utilizado para crear fondo grid  */
+        padding:20px;     
+        width:200px;
+    }
+       .grid{
+           background-color:yellow ;
+           display:grid;
+           padding:20px; 
+           grid-column-gap:20px;                   /* caracteristicas como color para el fondo que contendra el grid */
+           grid-row-gap: 10px;
+           grid-template-columns: 200px auto auto; /*  */
+ }
+      .grid-item {
+          background-color:blueviolet ;
+          font-size:20px;    
+          padding:20px;                         /* caracteristicas de los cuadros */
+          text-align:center;
+
+      }
+    </style>
+</head>
+<body>
+    <h2>Enfermedades mas comunes</h2>
+    <div class="grid">
+    <div class="grid-item">Criptorquidismo</div>
+    <div class="grid-item">Displasia de cadera</div>
+    <div class="grid-item">Criptorquidismo</div>
+    <div class="grid-item">Ectropion</div>
+    <div class="grid-item">Sordera</div>          <!-- para esta parte, se seleccionan las palabras que van dentro -->
+    <div class="grid-item">Atrofia progresiva de la retina</div>
+    <div class="grid-item">Seguera</div>
+    <div class="grid-item">Entropion</div>
+    <div class="grid-item">Cataratas</div>
+    
+   </div>
+   <h2>Enfermedades dentales </h2> 
+    <img src="https://samoyedo.org/wp-content/uploads/2019/06/P10109eps-300x225-300x225.jpg">
+    <ul>                          <!-- se inicia un listado sin orden -->
+    <li>
+        La enfermedad dental es el problema crónico más común en las mascotas, que afecta al 80% de todos los perros a los dos años. Y desafortunadamente, tu Samoyedo es más probable que otros perros tengan problemas con sus dientes. Comienza con la acumulación de sarro en los dientes y progresa hacia la infección de las encías y las raíces de los dientes. Si no prevenimos ni tratamos enfermedades dentales, su amigo perderá sus dientes y estará en peligro de dañar sus riñones, hígado, corazón y articulaciones. De hecho, ¡la vida útil de tu Samoyedo puede reducirse de uno a tres años! Limpiaremos los dientes de su perro con regularidad y le haremos saber qué puede hacer en casa para mantener limpios esos blancos nacarados.
+    </li>
+    <h2> Las enfermedades mas comunes </h2> 
+    <img src="medic.jpg">
+    <li>
+    Los samoyedos son susceptibles a infecciones virales y bacterianas, las mismas que todos los perros pueden contraer, como parvo, rabia y moquillo. Muchas de estas infecciones se pueden prevenir mediante la vacunación, que recomendaremos en función de las enfermedades que veamos en nuestra área, herage y otros factores.
+   </li>
+   <h2>Otras enfermedades</h2>
+ 
+    <li>Diabetes</li>
+    <li>Glomerulopatía hereditaria (se presenta mayormente en los machos)</li>
+    <li>Estenosis subaórtica</li>
+    <li>Defectos del tabique interauricular (CIA)</li>
+    <li>Dermatosis por sensibilidad de la hormona sexual suparrenal</li>
+    </ul>
+</body>
+</html>
